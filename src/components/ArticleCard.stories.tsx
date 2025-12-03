@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { ArticleCard } from "./ArticleCard";
 
 const meta: Meta<typeof ArticleCard> = {
-  title: "Blog/ArticleCard", // Esto creará la carpeta "Blog" en el menú
+  title: "Blog/ArticleCard",
   component: ArticleCard,
   tags: ["autodocs"],
 };
@@ -18,8 +18,8 @@ export const GitHubActions: Story = {
       "GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications",
     date: "June 24, 2022",
     category: "DevOps",
-    // Nota: La ruta empieza con /, que apunta a la carpeta "public"
-    image: "/assets/image 2.png",
+
+    image: "/assets/github-actions-ci.png",
   },
 };
 
@@ -31,6 +31,6 @@ export const Docker: Story = {
       "Docker is a tool designed to make it easier to create, deploy, and run applications by using containers.",
     date: "June 24, 2022",
     category: "DevOps",
-    image: "/assets/image 2(3).png",
+    image: "/assets/docker-deployment.png",
   },
 };
